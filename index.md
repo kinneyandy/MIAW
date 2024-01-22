@@ -4,6 +4,7 @@
         function initEmbeddedMessaging() {
             try {
                 embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
+                console.log(embeddedservice_bootstrap.settings);
                 embeddedservice_bootstrap.init(
                     '00D5E000000A9Mr',
                     'test',
